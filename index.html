@@ -44,8 +44,8 @@ footer{background:#0b1117;color:#c3ccd7;padding:24px 0;font-size:13px}.foot{disp
 <form class="form" onsubmit="event.preventDefault();const n=document.getElementById('name').value;const p=document.getElementById('phone').value;const e=document.getElementById('email').value;const m=document.getElementById('message').value;const body=encodeURIComponent('Name: '+n+'\nPhone: '+p+'\nEmail: '+e+'\nRequirement: '+m);window.location.href='mailto:anjanadrifirex@gmail.com?subject='+encodeURIComponent('Website enquiry - Anjanadri Enterprises')+'&body='+body;"><h3>Send an enquiry</h3><label for="name">Your name</label><input id="name" required placeholder="Enter your name"><label for="phone">Phone number</label><input id="phone" required type="tel" placeholder="Enter your phone number"><label for="email">Email address</label><input id="email" type="email" placeholder="Enter your email"><label for="message">How can we help?</label><textarea id="message" required placeholder="Tell us briefly about your requirement"></textarea><button class="btn" type="submit">Send enquiry by email</button><div class="note">This opens your email app with the enquiry details ready to send.</div></form></div></div></section>
 </main><footer><div class="wrap foot"><span>© <span id="year"></span> <strong>Anjanadri Enterprises</strong>. All rights reserved.</span><span>Protecting Lives. Securing Futures.</span></div></footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('#links a').forEach(a=>a.addEventListener('click',()=>document.getElementById('links').classList.remove('open')));</script>
-</body></html>
-</body>
+
+
 <section id="whatsapp-contact" style="background:#101c2c;color:white;padding:40px 20px;text-align:center;">
   <h2>Contact Us on WhatsApp</h2>
   <p>Get quotations and fire safety assistance directly from our team.</p>
@@ -65,3 +65,5 @@ footer{background:#0b1117;color:#c3ccd7;padding:24px 0;font-size:13px}.foot{disp
     WhatsApp – 6362912524
   </a>
 </section>
+</body>
+</html>
